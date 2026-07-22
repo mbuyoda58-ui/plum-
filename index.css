@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-ivory: #FDFCF8;
+  --color-clay: #D46A43;
+  --color-sage: #4A5D4E;
+  --color-sand: #F5F2EA;
+  
+  --color-stone-50: #FDFCF8;
+  --color-stone-100: #F5F2EA;
+  --color-stone-200: #E5E2D9;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-ivory);
+  color: #1A1A1A;
+}
+
+/* Custom scrollbar for an elegant feel */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E2D9;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D46A43;
+}
+

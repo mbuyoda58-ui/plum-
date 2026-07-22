@@ -1,0 +1,6 @@
+{
+  "name": "Plume",
+  "description": "Atelier d'écriture augmenté et éthique pour les littératures africaines, alliant rigueur des sources, réflexivité et souveraineté de l'auteur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
